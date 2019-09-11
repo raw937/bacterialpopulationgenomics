@@ -1,0 +1,5 @@
+#File	Test_trim_R1.fastq	Test_trim_R2.fastq
+#Total	4998
+#Matched	18	0.36014%
+#Name	Reads	ReadsPct
+gi|9626372|ref|NC_001422.1| Coliphage phiX174, complete genome	18	0.36014%
