@@ -1,7 +1,7 @@
 ## Global regular expression print -> grep
 ### Powerful hand of the gods
 
-### Basic syntex 
+### Basic syntax 
 ```grep [OPTIONS] PATTERN [FILE...]```
 
 - -c: print a count of the number of lines that match
