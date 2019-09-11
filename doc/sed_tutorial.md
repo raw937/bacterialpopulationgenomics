@@ -8,7 +8,7 @@
 - -e script, --expression=script: Same as standard -e option.
 - -f script-file, --file=script-file: Same as standard -f option.
 - --follow-symlinks: If this option is provided, the SED follows symbolic links while editing files in place.
-- i[SUFFIX], --in-place[=SUFFIX]: This option is used to edit file in place. If suffix is provided, it takes a backup of the original file, otherwise it overwrites the original file.
+-  i[SUFFIX], --in-place[=SUFFIX]: This option is used to edit file in place. If suffix is provided, it takes a backup of the original file, otherwise it overwrites the original file.
 - -l N, --line-lenght=N: This option sets the line length for l command to N characters.
 - --posix: This option disables all GNU extensions.
 - -r, --regexp-extended: This option allows to use extended regular expressions rather than basic regular expressions.
@@ -42,7 +42,6 @@
 
 ### Unless boom is found replace aaa with bb
 ```sed '/boom/!s/aaa/bb/' file.txt``` 
-
 
 ### Useful ones
 
