@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#Written Your Name
+#Sep 12, 2018
+
+#SBATCH --partition=kamiak 		 	      ### Partition 
+#SBATCH --job-name=Job_name		    	      ### Job Name
+#SBATCH --output=Job_name_date_out.txt       ### File in which to store job output
+#SBATCH --error=Job_name_date_err.txt        ### File in which to store job error messages
+#SBATCH --time=1-0:00:00       		       	      ### Wall clock time limit in Days-HH:MM:SS
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=0
+
+
+#wget
+wget https://github.com/raw937/bacterialpopulationgenomics/blob/master/data/Test_R1.fastq
+
+#fastqc
+/home/richard.white3/FastQC/fastqc Test_R1.fastq
